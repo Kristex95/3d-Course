@@ -129,7 +129,9 @@ class myThread2 extends Thread{
             val = slider.getValue();
             if(count > bound && ((val >= 10 && increment < 0) || (val <= 90 && increment>0))){
                 setPriority(priority);
-                slider.Increase(increment);
+                synchronized (slider) {
+                    slider.Increase(increment);
+                }
                 count = 0;
             }
         }

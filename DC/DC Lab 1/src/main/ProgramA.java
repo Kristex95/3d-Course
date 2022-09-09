@@ -31,10 +31,8 @@ public class ProgramA {
         JButton btn = new JButton("Start");
         btn.addActionListener(
                 (ActionEvent e) -> {
-                    synchronized (slider) {
-                        th1.start();
-                        th2.start();
-                    }
+                    th1.start();
+                    th2.start();
                 });
         panel.add(btn);
 
@@ -77,7 +75,9 @@ class myThread extends Thread{
             if(count > bound && ((val >= 10 && increment < 0) || (val <= 90 && increment>0))){
                 priority = (int)spinner.getValue();
                 setPriority(priority);
-                slider.Increase(increment);
+                synchronized (slider) {
+                    slider.Increase(increment);
+                }
                 count = 0;
             }
         }
