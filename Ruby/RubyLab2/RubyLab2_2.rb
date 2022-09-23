@@ -3,8 +3,8 @@ def diap(p, t, r)
     return sum
 end
 
-r = 0;
-p = 5;
-t = 7;
+r = 10;
+p = 6;
+t = 15;
 
 print diap(p, t, r)

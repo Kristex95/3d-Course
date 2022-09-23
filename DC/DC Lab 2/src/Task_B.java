@@ -59,7 +59,6 @@ class Tasks {
             }
 
         }
-        //System.out.println("Task \"produce\" done!");
     }
 
     public void produceAndConsume() {
