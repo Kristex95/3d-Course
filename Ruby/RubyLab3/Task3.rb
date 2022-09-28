@@ -1,7 +1,7 @@
 def t1(x)
   sum = 1
   for i in 1..10
-    sum += (-1**i)*((i+1)/(i+2))*x**i
+    sum += (-1**i)*((i+1).to_f/(i+2))*x**i
   end
   return sum
 end
@@ -9,7 +9,7 @@ end
 def t2()
   sum = 1
   for i in 1..8
-    sum += 1/3**i
+    sum += 1.0/3**i
   end
   return sum
 end

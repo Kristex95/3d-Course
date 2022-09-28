@@ -24,6 +24,11 @@ class Salon{
             newCustomer.start();
             queue.add(newCustomer);
         }
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         Customer newCustomer = new Customer();
         newCustomer.start();
         queue.add(newCustomer);
@@ -71,8 +76,8 @@ class Salon{
                     else {
                         System.out.println("Barber awake");
                         isAsleep = false;
-                        queue.remove();
                         System.out.println(queue.size());
+                        queue.remove();
                         System.out.println("Took new customer");
                         try {
                             sleep(100);

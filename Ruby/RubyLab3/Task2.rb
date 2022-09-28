@@ -8,7 +8,7 @@ def func(x)
   when 0..12
     return 1/((Math.tan(x + (1/Math::E)))/(Math.sin(x)**2))**(1/(7/2))
   else
-    return 1/(1 + x/ (1 + x/ (1 + x)))
+    return 1.0/(1.0 + x.to_f/ (1.0 + x.to_f/ (1.0 + x.to_f)))
   end
 end
 
