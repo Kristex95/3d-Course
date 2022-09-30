@@ -4,29 +4,38 @@ import sorting_system.SortingSystem;
 import sweets.Sweet;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Package {
     private List<Sweet> sweets = new ArrayList<>();
     private SortingSystem system = new SortingSystem();
+    public void AddSweets(Sweet sweet){
+        sweets.add(sweet);
+    }
 
-    public Package(){
-        sweets.add(new Sweet("Lollipop", 50, 200, 10));
-        sweets.add(new Sweet("Chocolate", 200, 500, 30));
-        sweets.add(new Sweet("Candy", 65, 110, 8));
-        sweets.add(new Sweet("Marshmallow", 300, 425, 60));
-        sweets.add(new Sweet("Waffles", 213, 360, 45));
-        sweets.add(new Sweet("Zephyr", 150, 175, 34));
-        sweets.add(new Sweet("Gum", 35, 50, 7));
-        sweets.add(new Sweet("Croissant", 190, 220, 20));
+    public Sweet GetByID(int id){
+        if(id<sweets.size()){
+            return sweets.get(id);
+        }
+        return null;
+    }
+    public Double GetTotalMass(){
+        return system.getTotalMass(sweets);
+    }
 
-        system.getTotalMass(sweets);
+    public void SortByMass(){
+        system.sortByMass(sweets);
+    }
+
+    public void FindBySugarRange(Double start, Double end){
+        system.findBySugarRange(sweets, start, end);
+    }
+
+    public void PrintSweets(){
         system.getSweets(sweets);
-        sweets = system.sortByMass(sweets);
-        System.out.println("Sorted by mass");
-        system.getSweets(sweets);
-        system.findBySugarRange(sweets, 5.0, 10.0);
+    }
+
+    public List<Sweet> getSweetsList(){
+        return sweets;
     }
 }

@@ -8,9 +8,9 @@ public class Sweet {
 
     public Sweet(String name, double weight, double energyValue, double sugar) {
         this.name = name;
-        this.weight = weight;
-        this.energyValue = energyValue;
-        this.sugar = sugar;
+        this.weight = Math.abs(weight);
+        this.energyValue = Math.abs(energyValue);
+        this.sugar = Math.abs(sugar);
     }
 
     public String getName() {return name;}
