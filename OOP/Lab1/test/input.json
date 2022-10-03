@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Lollipop",
+    "Mass": 50,
+    "Energy Value": 200,
+    "Sugar": 10
+  },
+  {
+    "Name": "Chocolate",
+    "Mass": 200,
+    "Energy Value": 500,
+    "Sugar": 30
+  },
+  {
+    "Name": "Candy",
+    "Mass": 65,
+    "Energy Value": 110,
+    "Sugar": 8
+  },
+  {
+    "Name": "Marshmallow",
+    "Mass": 300,
+    "Energy Value": 425,
+    "Sugar": 60
+  }
+]
