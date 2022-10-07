@@ -23,6 +23,7 @@ class MyThread extends Thread {
     CyclicBarrier cyclicBarrier;
     private String string = "";
     private boolean abEquals = false;
+    public boolean running = true;
 
     MyThread(CyclicBarrier cyclicBarrier) {
         Random random = new Random();
@@ -34,7 +35,8 @@ class MyThread extends Thread {
 
     @Override
     public void run() {
-        while (!interrupted()) {
+
+        while (running) {
             synchronized (cyclicBarrier) {
                 Random random = new Random();
                 int rand = random.nextInt(string.length());
@@ -69,9 +71,7 @@ class MyThread extends Thread {
             System.out.println(getId() + " " + string);
             try {
                 cyclicBarrier.await();
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            } catch (BrokenBarrierException e) {
+            } catch (InterruptedException | BrokenBarrierException e) {
                 throw new RuntimeException(e);
             }
 

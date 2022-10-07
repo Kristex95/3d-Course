@@ -22,7 +22,7 @@ public class Monitor {
             }
         }
         for (MyThread thread : threads) {
-            thread.interrupt();
+            thread.running = false;
         }
     }
 }
