@@ -3,19 +3,15 @@ package sorting_system_test;
 import container.Package;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
-import org.w3c.dom.ls.LSOutput;
 import sorting_system.SortingSystem;
 import sweets.Sweet;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class SortingSystemTest {
      SortingSystem system = new SortingSystem();
