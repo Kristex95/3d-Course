@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c506487e-3218-4f35-9d5b-eda02253c694" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab_1/src/sockets/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ruby/RubyLab6/main.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Lab1/target/test-classes/sorting_system_test/SortingSystemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Lab1/target/test-classes/sorting_system_test/SortingSystemTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Lab1/test/sorting_system_test/SortingSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Lab1/test/sorting_system_test/SortingSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Gauss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/HilbertMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Jacobi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Seidel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -34,19 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "F:/Learning/NewFolder/lab_1",
-    "ruby.rails.projectView.checked": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Learning/3d Course/OS/Lab_1&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Learning\3d Course\OS\Lab1\src\main\resources" />
@@ -91,6 +96,8 @@
       <workItem from="1665751515978" duration="12318000" />
       <workItem from="1665770970431" duration="12000" />
       <workItem from="1665771020672" duration="162000" />
+      <workItem from="1665952711134" duration="8000" />
+      <workItem from="1665953266523" duration="5000" />
     </task>
     <servers />
   </component>
