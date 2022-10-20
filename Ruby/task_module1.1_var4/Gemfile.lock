@@ -1,0 +1,16 @@
+GEM
+  specs:
+    matrix (0.4.2)
+    power_assert (2.0.1)
+    test-unit (3.5.3)
+      power_assert
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  matrix
+  test-unit
+
+BUNDLED WITH
+   2.3.7

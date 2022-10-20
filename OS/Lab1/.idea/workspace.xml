@@ -4,14 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c506487e-3218-4f35-9d5b-eda02253c694" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Gauss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/HilbertMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Jacobi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../NumericalMethods/Lab2/src/Seidel.java" afterDir="false" />
+    <list default="true" id="5348751a-0895-495e-9d8f-53b0d1e9b3c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lab1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lab1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clients/FuncF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clients/FuncG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_1/.idea/libraries/lab1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_1/lib/lab1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab_1/src/main/java/manager/TEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/libraries/lab1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1.2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ruby/task_module1.1_var4/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ruby/task_module1.1_var4/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/Lab_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/out/production/Lab_1/sockets/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/out/production/Lab_1/sockets/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/out/production/Lab_1/sockets/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/src/sockets/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/src/sockets/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/src/sockets/Server.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2G7ta6QBJvCzI0lajByV7XYyM1B" />
+  <component name="ProjectId" id="2GMOoYpZof5wI00ruycz6hTIh4B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,30 +76,28 @@
     &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Learning/3d Course/OS/Lab_1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Learning/3d-Course/OS/lab1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Learning\3d Course\OS\Lab1\src\main\resources" />
-      <recent name="F:\Learning\3d Course\OS\Lab1" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Learning\3d-Course\OS\lab1\lib" />
     </key>
-  </component>
-  <component name="RubyModuleManagerSettings">
-    <option name="blackListedRootsPaths">
-      <list>
-        <option value="$PROJECT_DIR$" />
-      </list>
-    </option>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="clients" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="manager.Main" />
-      <module name="Lab1" />
+      <module name="lab1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="manager.*" />
@@ -88,16 +117,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c506487e-3218-4f35-9d5b-eda02253c694" name="Changes" comment="" />
-      <created>1665751513481</created>
+      <changelist id="5348751a-0895-495e-9d8f-53b0d1e9b3c4" name="Changes" comment="" />
+      <created>1666195166120</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665751513481</updated>
-      <workItem from="1665751515978" duration="12318000" />
-      <workItem from="1665770970431" duration="12000" />
-      <workItem from="1665771020672" duration="162000" />
-      <workItem from="1665952711134" duration="8000" />
-      <workItem from="1665953266523" duration="5000" />
+      <updated>1666195166120</updated>
+      <workItem from="1666195167458" duration="5782000" />
+      <workItem from="1666201739230" duration="2202000" />
+      <workItem from="1666258143496" duration="1193000" />
     </task>
     <servers />
   </component>
