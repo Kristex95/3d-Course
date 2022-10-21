@@ -29,8 +29,6 @@ public class ServerThread extends Thread{
 
                 message = in.readLine();
                 exitProcessBool = handleMessage(message);
-                out.write(message);
-                out.flush();
                 System.out.println("Server Thread-" + getId() + " message: " + message + ";");
 
             }
