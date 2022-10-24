@@ -32,10 +32,10 @@ public class FuncF {
             while(attemptsCounter < maxAttempts) {
                 Optional<Integer> result;
 
-                    ExecutorService service = Executors.newCachedThreadPool();
+                ExecutorService service = Executors.newCachedThreadPool();
                 try{
                     Future<Optional<Integer>> future = service.submit(()-> IntOps.trialF(Integer.parseInt(value)));
-                    result = future.get(10, TimeUnit.SECONDS);
+                    result = future.get(5, TimeUnit.SECONDS);
 
                     if (result.isPresent()) {
                         out.write("Returned: " + result.get() + "\n");
@@ -46,12 +46,10 @@ public class FuncF {
                         break;
                     }
 
-
-
                 } catch (TimeoutException e) {
                     attemptsCounter++;
                     if (attemptsCounter == maxAttempts){
-                        out.write("IntOps.trialF Hard fail" + "\n");
+                        out.write("EXCEPTION IntOps.trialF Hard fail" + "\n");
                         out.flush();
                         break;
                     }else {
@@ -74,13 +72,6 @@ public class FuncF {
             in.close();
             out.close();
         }
-        finally {
-            out.write("stop\n");
-            out.flush();
 
-            clientSocket.close();
-            in.close();
-            out.close();
-        }
     }
 }

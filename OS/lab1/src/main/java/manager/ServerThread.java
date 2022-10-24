@@ -55,7 +55,8 @@ public class ServerThread extends Thread{
     private boolean handleMessage(String message){
         if (message != null || message != ""){
             if (message.contains("EXCEPTION")){
-                System.out.println(message);
+                Manager.cancel.set(true);
+                return true;
             }
             if (message.contains("stop")){
                 return true;

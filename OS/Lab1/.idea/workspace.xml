@@ -8,10 +8,32 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/clients/FuncF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clients/FuncF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/clients/FuncG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clients/FuncG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/libraries/lab1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/lib/lab1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab_1/src/main/java/manager/TEST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/clients/FuncF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clients/FuncF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/clients/FuncG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clients/FuncG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clients/FuncG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/manager/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/manager/Manager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/manager/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/manager/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/src/main/java/clients/FunctionF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/src/main/java/clients/FunctionG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/src/main/java/manager/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/src/main/java/manager/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/src/main/java/manager/ServerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/target/classes/clients/FunctionF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/target/classes/clients/FunctionG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/target/classes/manager/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/target/classes/manager/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/target/classes/manager/ServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1/target/classes/manager/TEST.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +136,11 @@
       <workItem from="1666314801430" duration="213000" />
       <workItem from="1666315033819" duration="331000" />
       <workItem from="1666315734753" duration="117000" />
+      <workItem from="1666352875785" duration="458000" />
+      <workItem from="1666353352464" duration="112000" />
+      <workItem from="1666353473671" duration="1017000" />
+      <workItem from="1666354564369" duration="7487000" />
+      <workItem from="1666621594083" duration="63000" />
     </task>
     <servers />
   </component>
