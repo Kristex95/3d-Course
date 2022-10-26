@@ -1,0 +1,35 @@
+<gems>
+    <gem>
+        <name>Topaz</name>
+        <preciousness>precious</preciousness>
+        <origin>Ukraine</origin>
+        <visual_parameters>
+            <color>yellow</color>
+            <transparency>50</transparency>
+            <cutting>6</cutting>
+        </visual_parameters>
+        <value>20</value>
+    </gem>
+    <gem>
+        <name>Ruby</name>
+        <preciousness>semi-precious</preciousness>
+        <origin>Austria</origin>
+        <visual_parameters>
+            <color>red</color>
+            <transparency>40</transparency>
+            <cutting>8</cutting>
+        </visual_parameters>
+        <value>5</value>
+    </gem>
+    <gem>
+        <name>Aquamarine</name>
+        <preciousness>precious</preciousness>
+        <origin>USA</origin>
+        <visual_parameters>
+            <color>blue</color>
+            <transparency>20</transparency>
+            <cutting>12</cutting>
+        </visual_parameters>
+        <value>40</value>
+    </gem>
+</gems>

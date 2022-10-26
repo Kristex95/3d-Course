@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="gems" type="gemsType"/>
+  <xs:complexType name="visual_parametersType">
+    <xs:sequence>
+      <xs:element name="color">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="yellow"/>
+            <xs:enumeration value="red"/>
+            <xs:enumeration value="blue"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="transparency">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="50"/>
+            <xs:enumeration value="40"/>
+            <xs:enumeration value="20"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="cutting">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="6"/>
+            <xs:enumeration value="8"/>
+            <xs:enumeration value="12"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="gemType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Topaz"/>
+            <xs:enumeration value="Ruby"/>
+            <xs:enumeration value="Aquamarine"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="preciousness">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="precious"/>
+            <xs:enumeration value="semi-precious"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="origin">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Ukraine"/>
+            <xs:enumeration value="Austria"/>
+            <xs:enumeration value="USA"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="visual_parametersType" name="visual_parameters"/>
+      <xs:element name="value">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="20"/>
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="40"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="gemsType">
+    <xs:sequence>
+      <xs:element type="gemType" name="gem" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
