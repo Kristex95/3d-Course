@@ -4,9 +4,13 @@ public class Main {
 
         HilbertMatrix hilbertMatrix = new HilbertMatrix(SIZE);
         MatrixCreator creator = new MatrixCreator();
-        double[][] A = creator.GetRandomMatrix(SIZE);
+        //double[][] A = creator.GetRandomMatrix(SIZE);
+        double[][] A = {{3,2,1}, {2,5,3}, {2,3,5}};
         double[] B = creator.GetVectorB(A);
         double[] C = creator.GetVectorB(hilbertMatrix.GetHilbert());
+        for (int i = 0; i < B.length; i++) {
+            System.out.println(B[i]);
+        }
 
         /** Перевірка збіжності **/
         while (!creator.Convergence(A)){

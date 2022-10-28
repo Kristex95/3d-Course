@@ -11,8 +11,8 @@
         <value>20</value>
     </gem>
     <gem>
-        <name>Ruby</name>
         <preciousness>semi-precious</preciousness>
+        <name>Ruby</name>
         <origin>Austria</origin>
         <visual_parameters>
             <color>red</color>
