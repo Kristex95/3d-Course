@@ -29,7 +29,7 @@ public class Manager {
             gotResult.set(false);
             cancel.set(false);
             startProcess("F", value);
-            startProcess("G", value);
+            startProcess("F", value);
             while (!gotResult.get()) {
                 if (cancel.get()) {
                     handleHardFail();
@@ -81,7 +81,7 @@ public class Manager {
 
     private static void startProcess(String functionName, int value) throws IOException {
         ProcessBuilder processBuilder = new ProcessBuilder(
-                "java", "-cp", ";F:\\Learning\\3d-Course\\OS\\lab1\\lib\\lab1.jar", "clients.Func" + functionName).inheritIO();
+                "java","-jar", ".idea/artifacts/Lab1F/Lab1.jar", "-cp", ";F:\\Learning\\3d-Course\\OS\\lab1\\lib\\lab1.jar", "clients.Func" + functionName).inheritIO();
         processBuilder.directory(new File("F:\\Learning\\3d-Course\\OS\\lab1\\target\\classes"));
         processesList.add(processBuilder.start());
 

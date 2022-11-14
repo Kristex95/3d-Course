@@ -5,4 +5,7 @@
         <student first_name="Polina" id="2" last_name="Bondarevska"/>
         <student first_name="Sasha" id="5" last_name="Anikanov"/>
     </group>
+    <group id="2" name="IPS-32">
+        <student first_name="Denys" id="10" last_name="Gordeev"/>
+    </group>
 </learning_division>

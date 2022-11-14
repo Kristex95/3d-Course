@@ -9,7 +9,7 @@ public class Main {
         LearningDivision learningDivision = new LearningDivision();
         learningDivision.loadFromFile(
                 "src/main/java/org/example/resources/learning_division.xml",
-                "org/example/resources/learning_division.xsd");
+                "src/main/java/org/example/resources/learning_division.xsd");
         learningDivision.print();
 
         String operation = "0";
@@ -27,24 +27,24 @@ public class Main {
 
             System.out.print("\nChoose your operation: ");
 
-            Scanner scanner = new Scanner(System.in);
-            operation = scanner.nextLine();
-
-            String groupName;
-            int group_id;
-            int index;
-            String studentFirstName;
-            String studentLastName;
-            int student_id;
-            switch (Integer.parseInt(operation)) {
-                case 1:
-                    System.out.print("Enter group name: ");
-                    groupName = scanner.nextLine();
-                    System.out.print("Enter group id: ");
-                    group_id = Integer.parseInt(scanner.nextLine());
+            id = Integer.parseInt(scanner.nextLine());
                     learningDivision.addGroup(group_id, groupName);
                     break;
-                case 2:
+                case 2:Scanner scanner = new Scanner(System.in);
+                    operation = scanner.nextLine();
+
+                    String groupName;
+                    int group_id;
+                    int index;
+                    String studentFirstName;
+                    String studentLastName;
+                    int student_id;
+                    switch (Integer.parseInt(operation)) {
+                        case 1:
+                            System.out.print("Enter group name: ");
+                            groupName = scanner.nextLine();
+                            System.out.print("Enter group id: ");
+                            group_
                     System.out.print("Enter group id: ");
                     group_id = Integer.parseInt(scanner.nextLine());
                     System.out.println(learningDivision.getGroup(group_id));

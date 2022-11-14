@@ -19,7 +19,7 @@ public class Gem implements Comparable<Gem> {
 
     @Override
     public int compareTo(Gem anotherGem){
-        return this.value - anotherGem.value;
+        return this.value - anotherGem.value; //
     }
 
 
