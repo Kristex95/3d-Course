@@ -1,0 +1,16 @@
+<div class="ms-2">
+  <h1 class="m3 d-flex justify-content-center align-self-center"><%= t('global.create_edit_book.edit_book') + " " + @book.id.to_s %></h1>
+  <%= form_for :book, url: book_path(@book), method: :patch do |form| %>
+    <div class="d-flex flex-column" style="margin: 0 auto; width: 30rem">
+      <p><%= t('global.create_edit_book.name') %></p>
+      <p><%= form.text_field(:name, { :class => 'form-control' }) %></p>
+      <p><%= t('global.create_edit_book.order_date') %></p>
+      <p><%= form.date_field(:order_date, { :class => 'form-control' }) %></p>
+      <p><%= t('global.create_edit_book.issue-date') %></p>
+      <p><%= form.date_field(:issue_date, { :class => 'form-control' }) %></p>
+      <p><%= t('global.create_edit_book.student') %></p>
+      <p><%= select_tag :student_id, options_for_select(@students.collect { |student| [student.name + " " + student.surname, student.id] }), class: "form-control" %></p>
+      <p><%= form.submit({ :class => 'btn btn-primary' }) %></p>
+  <% end %>
+  </div>
+</div>

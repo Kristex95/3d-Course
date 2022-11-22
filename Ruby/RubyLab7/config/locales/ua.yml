@@ -1,0 +1,30 @@
+ua:
+  global:
+    menu:
+      home: "Домашня"
+      students: "Студенти"
+      language: "Мова"
+    index:
+      name: "Ім'я"
+      order_date: "Дата замовлення"
+      issue-date: "Дата видачі"
+      student_name: "Ім'я студента"
+      student_surname: "Призвіще студента"
+      all_books: "Всі Книги"
+      all_students: "Всі студенти"
+      edit: "змінити"
+      delete: "видалити"
+      add_new: "додати"
+    create_edit_book:
+      edit_book: "Змінити книгу"
+      new_book: "Нова книга"
+      name: "Назва"
+      order_date: "Дата замовлення"
+      issue-date: "Дата видачі"
+      student: "Студент"
+      submit: "Підтвердити"
+    create_edit_student:
+      new_student: "Новий студент"
+      edit_student: "Змінити данні про студента"
+      student_name: "Ім'я"
+      student_surname: "Призвіще"

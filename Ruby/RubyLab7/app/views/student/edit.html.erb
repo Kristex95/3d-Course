@@ -1,0 +1,12 @@
+<div class="ms-2">
+  <h1 class="m3 d-flex justify-content-center align-self-center"><%= t("global.create_edit_student.edit_student") + " " + @student.id.to_s %></h1>
+  <%= form_for :student, url: student_path(@student), method: :patch do |form| %>
+    <div class="d-flex flex-column" style="margin: 0 auto; width: 30rem">
+      <p><%= t("global.create_edit_student.student_name")%></p>
+      <p><%= form.text_field(:name, { :class => 'form-control' }) %></p>
+      <p><%= t("global.create_edit_student.student_surname")%></p>
+      <p><%= form.text_field(:surname, { :class => 'form-control' }) %></p>
+      <p><%= form.submit({ :class => 'btn btn-primary' }) %></p>
+  <% end %>
+  </div>
+</div>

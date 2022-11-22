@@ -1,0 +1,33 @@
+en:
+  global:
+    menu:
+      home: "Home"
+      students: "Students"
+      language: "Language"
+    index:
+      name: "Name"
+      order_date: "Order date"
+      issue-date: "Issue date"
+      student_name: "Student name"
+      student_surname: "Student surname"
+      all_books: "All Books"
+      all_students: "All Students"
+      edit: "edit"
+      delete: "delete"
+      add_new: "add new"
+    create_edit_book:
+      edit_book: "Edit Book"
+      new_book: "New Book"
+      name: "Name"
+      order_date: "Order date"
+      issue-date: "Issue date"
+      student: "Student"
+      submit: "Submit"
+    create_edit_student:
+      new_student: "New student"
+      edit_student: "Edit student info"
+      student_name: "Name"
+      student_surname: "Surname"
+
+
+

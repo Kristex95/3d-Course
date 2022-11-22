@@ -1,0 +1,28 @@
+table{
+    border: 1px solid grey;
+}
+
+.btn:hover {
+    color: darkgrey;
+    text-decoration: none;
+    background-color: white;
+    background-position: 0 -15px;
+}
+
+.button{
+    color: #2E2F30;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #1b1b21;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: white; !important;
+}
