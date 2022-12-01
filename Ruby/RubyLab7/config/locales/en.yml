@@ -8,8 +8,8 @@ en:
       name: "Name"
       order_date: "Order date"
       issue-date: "Issue date"
-      student_name: "Student name"
-      student_surname: "Student surname"
+      student_name: "Student's name"
+      student_surname: "Student's surname"
       all_books: "All Books"
       all_students: "All Students"
       edit: "edit"
@@ -25,7 +25,7 @@ en:
       submit: "Submit"
     create_edit_student:
       new_student: "New student"
-      edit_student: "Edit student info"
+      edit_student: "Edit student's info"
       student_name: "Name"
       student_surname: "Surname"
 
