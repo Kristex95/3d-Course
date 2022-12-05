@@ -20968,3 +20968,188 @@ Processing by BookController#index as HTML
 Completed 200 OK in 268ms (Views: 264.1ms | ActiveRecord: 1.7ms | Allocations: 40966)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-04 16:33:41 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering book/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/book/index.html.erb:18
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  Rendered book/index.html.erb within layouts/application (Duration: 1915.5ms | Allocations: 44097)
+  Rendered layout layouts/application.html.erb (Duration: 2272.7ms | Allocations: 67697)
+Completed 200 OK in 2514ms (Views: 2332.0ms | ActiveRecord: 1.3ms | Allocations: 72797)
+
+
+Started GET "/en" for 127.0.0.1 at 2022-12-04 16:34:03 +0200
+Processing by BookController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering book/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/book/index.html.erb:18
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  Rendered book/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2582)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4099)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 4468)
+
+
+Started GET "/en/student" for 127.0.0.1 at 2022-12-04 16:34:04 +0200
+Processing by StudentController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering student/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/student/index.html.erb:15
+  Rendered student/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2483)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4171)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 4999)
+
+
+Started GET "/en" for 127.0.0.1 at 2022-12-04 16:34:06 +0200
+Processing by BookController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering book/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/book/index.html.erb:18
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  Rendered book/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2392)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3880)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 4199)
+
+
+Started GET "/en" for 127.0.0.1 at 2022-12-04 16:34:14 +0200
+Processing by BookController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering book/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/book/index.html.erb:18
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  Rendered book/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2356)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3844)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 4135)
+
+
+Started GET "/en/student" for 127.0.0.1 at 2022-12-04 16:34:31 +0200
+Processing by StudentController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering student/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/student/index.html.erb:15
+  Rendered student/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1724)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3209)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 3493)
+
+
+Started GET "/en/student/new" for 127.0.0.1 at 2022-12-04 16:34:34 +0200
+Processing by StudentController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering student/new.html.erb within layouts/application
+  Rendered student/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 1860)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 2204)
+
+
+Started POST "/student" for 127.0.0.1 at 2022-12-04 16:34:42 +0200
+Processing by StudentController#create as HTML
+  Parameters: {"name"=>"Igor", "surname"=>"Ben"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/student_controller.rb:12:in `create'
+  [1m[36mStudent Create (1.4ms)[0m  [1m[32mINSERT INTO "students" ("name", "surname", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Igor"], ["surname", "Ben"], ["created_at", "2022-12-04 14:34:42.555323"], ["updated_at", "2022-12-04 14:34:42.555323"]]
+  ↳ app/controllers/student_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (142.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/student_controller.rb:12:in `create'
+Redirected to http://127.0.0.1:3000/student
+Completed 302 Found in 150ms (ActiveRecord: 144.4ms | Allocations: 3210)
+
+
+Started GET "/student" for 127.0.0.1 at 2022-12-04 16:34:42 +0200
+Processing by StudentController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering student/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/student/index.html.erb:15
+  Rendered student/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2288)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3994)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.1ms | Allocations: 4326)
+
+
+Started GET "/en" for 127.0.0.1 at 2022-12-04 16:34:46 +0200
+Processing by BookController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering book/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/book/index.html.erb:18
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  Rendered book/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2362)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3851)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 4135)
+
+
+Started GET "/en/book/new" for 127.0.0.1 at 2022-12-04 16:34:50 +0200
+Processing by BookController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering book/new.html.erb within layouts/application
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/book/new.html.erb:12:in `collect'
+  Rendered book/new.html.erb within layouts/application (Duration: 73.9ms | Allocations: 2708)
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | Allocations: 4326)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.1ms | Allocations: 4714)
+
+
+Started POST "/en/book" for 127.0.0.1 at 2022-12-04 16:35:08 +0200
+Processing by BookController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book"=>{"name"=>"History", "order_date"=>"2022-12-03", "issue_date"=>"2022-12-04"}, "student_id"=>"23", "commit"=>"Save Book", "locale"=>"en"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_controller.rb:12:in `create'
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/book_controller.rb:12:in `create'
+  [1m[36mBook Create (0.9ms)[0m  [1m[32mINSERT INTO "books" ("name", "issue_date", "order_date", "student_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "History"], ["issue_date", "2022-12-04 00:00:00"], ["order_date", "2022-12-03 00:00:00"], ["student_id", 23], ["created_at", "2022-12-04 14:35:08.933262"], ["updated_at", "2022-12-04 14:35:08.933262"]]
+  ↳ app/controllers/book_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (137.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_controller.rb:12:in `create'
+Redirected to http://127.0.0.1:3000/en
+Completed 302 Found in 315ms (ActiveRecord: 139.0ms | Allocations: 6055)
+
+
+Started GET "/en" for 127.0.0.1 at 2022-12-04 16:35:09 +0200
+Processing by BookController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering layout layouts/application.html.erb
+  Rendering book/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/book/index.html.erb:18
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:22
+  [1m[36mCACHE Student Load (0.0ms)[0m  [1m[34mSELECT "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/book/index.html.erb:23
+  Rendered book/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 3917)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 5508)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms | Allocations: 5844)
+
+
